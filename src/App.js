@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import SimpleReactTooltip from './SimpleReactTooltip';
 
-const Child = ({hoverRef, isHover}) => {
+const Child = () => {
   return(
     <div className={'child'}>
       <p>Hover over me</p>
