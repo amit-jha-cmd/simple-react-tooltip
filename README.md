@@ -13,7 +13,7 @@ Just wrap your component and pass the tooltip you wish to use
 ```javascript
 import React from 'react';
 import './App.css';
-import SimpleReactTooltip from 'SimpleReactTooltip';
+import SimpleReactTooltip from '@devbihari/simple-react-tooltip';
 
 const Child = () => {
   return(
