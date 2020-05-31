@@ -1,6 +1,15 @@
 # simple-react-tooltip
 A simple light weight react package to display components as tooltip over other components
 
+## Installation
+```shell
+npm i @devbihari/simple-react-tooltip --save
+```
+or
+```shell
+yarn add @devbihari/simple-react-tooltip
+```
+
 ## How to use it
 Just wrap your component and pass the tooltip you wish to use
 ```javascript
