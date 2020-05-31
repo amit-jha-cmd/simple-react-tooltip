@@ -35,7 +35,7 @@ const Child = () => {
 function App() {
 
   const TooltipComp =  <div className={'tooltip'}>
-    <p>I'm a tooltip</p>
+    <p>I am a tooltip</p>
   </div>
 
   return (
@@ -54,3 +54,10 @@ export default App;
 
 ## Result
 ![sample gif](./sample.gif)
+
+---
+## Road map
+- [x] Hover to display tooltip
+- [x] Custom design for tooltip
+- [ ] Delay while showing tooltip
+- [ ] Optimized for stateful components
