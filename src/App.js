@@ -5,13 +5,17 @@ import SimpleReactTooltip from './SimpleReactTooltip';
 
 const Child = ({hoverRef, isHover}) => {
   return(
-    <div style={{width: '150px', height:  '150px'}}></div>
+    <div className={'child'}>
+      <p>Hover over me</p>
+    </div>
   )
 }
 
 function App() {
 
-  const Comp =  <div>pppp</div>
+  const Comp =  <div className={'tooltip'}>
+    <p>I'm a tooltip</p>
+  </div>
 
   return (
     <div className="App">
